@@ -1,0 +1,87 @@
+@import url('https://at.alicdn.com/t/font_1126721_75iedceomrg.css');
+body{
+    margin-top: 0;
+}
+.content{
+    display: block;
+    min-width: 75%;
+    max-width: 85%;
+    width: 80%;
+    height:100%;
+    position: fixed;
+    right: 0;
+    background-color: #EEEEDE;
+}
+.sidebar{
+    display: block;
+    min-width: 15%;
+    width: 20%;
+    max-width: 25%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: #444444;
+}
+h1,h3{
+    color:#ffffff;
+    margin-left:20px;
+    margin-right: 0;
+    display:block;
+}
+.line{
+    border-top:solid rgb(255,255,255) 4px;
+    width: 100%;
+}
+.conhead{
+    background-color: #444444;
+    height:12%;
+    position: absolute;
+    top: 0;
+    width:100%
+}
+.conheadcon{
+    margin-top: 0;
+    display: inline;
+    padding-top: 10px;
+}
+.conright{
+    position: absolute;
+    right: 0;
+}
+.conleft{
+    position: relative;
+    top: 20px;
+}
+.conheadtext{
+    display:inline;
+    max-width: 200px;
+    margin-right:0;
+}
+#articles{
+    position: absolute;
+    bottom: 0;
+    height: 88%;
+    width: 100%;
+}
+h4{
+    margin-top:0;
+    display:inline;
+}
+.rightinfo{
+    position: absolute;
+    right: 10px;
+}
+.leftinfo{
+    position: absolute;
+    left: 10px;
+    max-width: 50%;
+}
+.lineofarticle{
+    border-top:solid rgb(255,255,255) 4px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+.article{
+    cursor:pointer;
+}
