@@ -63,6 +63,12 @@ h1,h3{
     height: 88%;
     width: 100%;
 }
+#contentarti{
+    position: absolute;
+    bottom: 0;
+    height: 88%;
+    width: 100%;
+}
 h4{
     margin-top:0;
     display:inline;

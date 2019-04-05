@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>BLOGGER - TS Studio</title>
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar"><!--sidebar-->
+            <h1>TS Studio<br>BLOGGER</h1>
+            <div class="line"></div>
+            <h3>BY</h3>
+            <h3 id="authorPlace">AUTHOR</h3>
+            <h3>STARS</h3>
+            <h3 id="starPlace"><i class="iconfont icon-starmarkhighligh"></i></h3>
+            <h3>Time</h3>
+            <h3 id="timePlace"><i class="iconfont icon-shijian"></i></h3>
+            <!--load tags with AJAX-->
+        </div>
+        <div class="content"><!--main-->
+            <div class="conhead"><!--head-->
+                <div class="conheadcon conleft"><!--left-->
+                    <h1 class="conheadtext" id="artitle">TITLE</h1>
+                </div>
+                <!--right-->
+                <div class="conheadcon conright" id="userinfo">
+                    <!--此处显示登录信息-->
+                    <h3><i class="iconfont icon-author"></i></h3>
+                </div>
+            </div>
+            <div id="contentarti"><!--文章显示 内容全部为AJAX加载-->
+            </div>
+        </div>
+    </body>
+    <script src="js/getcontent.js"></script>
+</html>
