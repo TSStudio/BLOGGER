@@ -2,7 +2,7 @@
 include "server-info.php";
 session_start();
 if(!isset($_SESSION["username"])){
-    $username="GUEST";
+    $username='<a href="https://account.tmysam.top/loginform.php?code=105&URL=BLOGGER">登录</a>';
 }else{
     $username=$_SESSION["username"];
 }

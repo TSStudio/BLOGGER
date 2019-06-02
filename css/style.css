@@ -91,3 +91,7 @@ h4{
 .article{
     cursor:pointer;
 }
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
