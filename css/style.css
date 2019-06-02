@@ -1,4 +1,7 @@
 @import url('https://at.alicdn.com/t/font_1126721_75iedceomrg.css');
+*{
+    font-family: Helvetica,Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
     margin-top: 0;
 }
