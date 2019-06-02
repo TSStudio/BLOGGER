@@ -17,7 +17,7 @@ $threadid=$_GET['threadid'];
 $stmt->bind_result($author,$time,$stars,$title,$content);
 $stmt->execute();
 $output = array("username"=>$username);
-while ($mysqli_stmt->fetch()) {
+while ($stmt->fetch()) {
     $output['title']=$title;
     $output['content']=$content;
     $output['time']=date("Y-m-d",$time);
