@@ -14,4 +14,6 @@ ajaxhttp.onreadystatechange=function(){
     }
 }
 ajaxhttp.open("GET","./apis/indexload.php",true);
-ajaxhttp.send();
+window.onload=function(){
+    ajaxhttp.send();
+}

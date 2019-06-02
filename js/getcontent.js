@@ -28,4 +28,6 @@ ajaxhttp.onreadystatechange=function(){
     }
 }
 ajaxhttp.open("GET","./apis/getcontent.php?threadid="+getQueryVariable("id"),true);
-ajaxhttp.send();
+window.onload=function(){
+    ajaxhttp.send();
+}
